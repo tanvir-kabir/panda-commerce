@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>panda-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container ">
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#shoes">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#backpack" >Backpack</a>
+                  </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div class="container ">
+        <div id="carouselExample" class="carousel slide orange-bg carousel-border">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               <div class="row d-flex align-items-center">
+                <div class="col-md-7">
+                    <h1>Premium Headset</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illo repellat nobis atque perferendis iure. Error, ab. Dicta, ab laboriosam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, accusantium.</p>
+                    <h1 class="price">$100</h1>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                </div>
+               </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h1>Ultra HD TV</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illo  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, facere. pellat nobis atque perferendis iure. Error, ab. Dicta, ab laboriosam.</p>
+                        <h1 class="price">$499</h1>
+                    <button class="buynow-btn">Buy Now</button>
+                    </div>
+                    <div class="col-md-5"><img src="images/banner-images/tv.png" class="d-block w-100" alt="..."></div>
+                </div>
+              </div>
+              <div class="carousel-item">
+               <div class="row d-flex align-items-center">
+                <div class="col-md-7">
+                    <h1>X-Box 360</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illo repellat nobis Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, sapiente. atque perferendis iure. Error, ab. Dicta, ab laboriosam.</p>
+                    <h1 class="price">$510</h1>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+                <div class="col-md-5"> <img src="images/banner-images/xbox.png" class="d-block w-100" alt="..."></div>
+               </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div class="container catagories">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="cat1 d-flex justify-content-between align-items-center">
+            <h1>Watch</h1>
+          <img src="images/categories/watch.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="cat2 d-flex justify-content-between align-items-center">
+            <h1>Bag</h1>
+          <img src="images/categories/bag.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="cat3 d-flex justify-content-between align-items-center">
+            <h1>Shoes</h1>
+          <img src="images/categories/shoes.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="shoes">
+      <h1>Shoes</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 shadow p-3">
+            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SPLY-350</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to ad.</p>
+              <h2>$350</h2>
+              <button  class="card-button">Buy Now>></button>
+              
+            </div>
+           
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card h-100 shadow p-3">
+            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">NIKE 360</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to .</p>
+              <h2>$300</h2>
+              <button  class="card-button">Buy Now>></button>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow p-3">
+            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">RED AIRMAX 007</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to </p>
+              <h2>$420</h2>
+              <button  class="card-button">Buy Now>></button>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="backpack">
+      <h1>Backpack</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 shadow p-3">
+            <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">RED BAG</h5>
+              <h2>$100</h2>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to ad.</p>
+              
+              <button  class="card-button">Buy Now>></button>
+              
+            </div>
+           
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card h-100 shadow p-3">
+            <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BLUE BAG</h5>
+              <h2>$120</h2>
+              <p class="card-text">This card has supporting text below as a natural lead-in to .</p>
+              
+              <button  class="card-button">Buy Now>></button>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow p-3">
+            <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BLACK BAG</h5>
+              <h2>$99</h2>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to </p>
+              
+              <button  class="card-button">Buy Now>></button>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container intouch" id="subscribe">
+      <div class="forpad d-flex justify-content-center align-items-center">
+        <div>
+          <h1> LET'S STAY IN TOUCH</h1>
+        <p>Get updates on sales, specials and more</p>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"><h5>Email address</h5></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          
+            
+          <button type="submit" class="card-button">Submit</button>
+        </form>
+        </div>
+      </div>
+     
+    </div>
+
+    
+
+   
+
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
